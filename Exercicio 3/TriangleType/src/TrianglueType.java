@@ -9,6 +9,7 @@ public class TrianglueType {
                 int lado2=sc.nextInt();
                 System.out.println("Digite o valor do 3º lado: ");
                 int lado3=sc.nextInt();
+                sc.close();
 
        if (lado1 == lado2 && lado2 == lado3 && lado1==lado3){
             System.out.println("É um triangulo Equilatero.");
