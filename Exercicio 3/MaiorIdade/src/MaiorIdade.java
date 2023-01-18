@@ -4,12 +4,9 @@ public class MaiorIdade {
     public static void main(String[] args) throws Exception {
         boolean maiorIdade = false;
         System.out.println("Digte a Idade: ");
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             int idade = sc.nextInt();
-            if(idade>=18){
-                maiorIdade = true;
-            }
-        }
+            maiorIdade = idade>=18;
         System.out.println(maiorIdade);
         
     }
