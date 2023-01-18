@@ -1,5 +1,3 @@
-import java.io.SyncFailedException;
-
 public class calculo_bytes {
     public static void main(String[] args) throws Exception {
         byte a = 12;
